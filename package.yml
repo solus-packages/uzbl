@@ -1,0 +1,21 @@
+name       : uzbl
+version    : 0.9.1
+release    : 1
+source     :
+    - https://github.com/uzbl/uzbl/archive/v0.9.1.tar.gz : b5d6a0ffa602839f338af80b286c3550b85e68dd2412ccad3fea896ad2501ae9
+license    : GPL-3.0
+component  : network.web.browser
+summary    : A web browser that adheres to the unix philosophy
+description: |
+    A web browser that adheres to the unix philosophy
+builddeps  :
+    - pkgconfig(gtk+-3.0)
+    - pkgconfig(libsoup-2.4)
+    - pkgconfig(python-3.5)
+    - pkgconfig(webkit2gtk-4.0)
+setup      : |
+    sed -i "s|ca-bundle|ca-certificates|" examples/config/config
+build      : |
+    %make PREFIX=/usr
+install    : |
+    %make_install PREFIX=/usr
