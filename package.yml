@@ -2,7 +2,7 @@ name       : uzbl
 version    : 0.9.1
 release    : 4
 source     :
-    - https://github.com/uzbl/uzbl/archive/v0.9.1.tar.gz : b5d6a0ffa602839f338af80b286c3550b85e68dd2412ccad3fea896ad2501ae9
+    - https://github.com/uzbl/uzbl/archive/v0.9.1.tar.gz : 5778216914b8f45bc92fe72c9e51dad38423314bbc4a8182e305c24a9b5d86ba
 license    : GPL-3.0
 component  : network.web.browser
 summary    : A web browser that adheres to the unix philosophy
