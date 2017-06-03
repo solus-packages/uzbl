@@ -1,6 +1,6 @@
 name       : uzbl
 version    : 0.9.1
-release    : 3
+release    : 4
 source     :
     - https://github.com/uzbl/uzbl/archive/v0.9.1.tar.gz : b5d6a0ffa602839f338af80b286c3550b85e68dd2412ccad3fea896ad2501ae9
 license    : GPL-3.0
@@ -14,6 +14,9 @@ builddeps  :
     - pkgconfig(python-3.5)
     - pkgconfig(webkitgtk-3.0)
     - python-six
+rundeps    :
+    - python-six
+    - pygtksourceview
 setup      : |
     sed -i "s|ca-bundle|ca-certificates|" examples/config/config
 build      : |
