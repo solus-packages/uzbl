@@ -1,8 +1,8 @@
 name       : uzbl
 version    : 0.9.1
-release    : 4
+release    : 5
 source     :
-    - https://github.com/uzbl/uzbl/archive/v0.9.1.tar.gz : 5778216914b8f45bc92fe72c9e51dad38423314bbc4a8182e305c24a9b5d86ba
+    - https://github.com/uzbl/uzbl/archive/v0.9.1.tar.gz : 9721873db3fd859707f703a101b4f2d0538f92e9678f8ad437a7203078f9abbe
 license    : GPL-3.0
 component  : network.web.browser
 summary    : A web browser that adheres to the unix philosophy
@@ -11,7 +11,7 @@ description: |
 builddeps  :
     - pkgconfig(gtk+-3.0)
     - pkgconfig(libsoup-2.4)
-    - pkgconfig(python-3.5)
+    - pkgconfig(python3)
     - pkgconfig(webkitgtk-3.0)
     - python-six
 rundeps    :

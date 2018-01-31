@@ -2,8 +2,8 @@
     <Source>
         <Name>uzbl</Name>
         <Packager>
-            <Name>Justin Zobel</Name>
-            <Email>justin@solus-project.com</Email>
+            <Name>Peter O&apos;Connor</Name>
+            <Email>peter@solus-project.com</Email>
         </Packager>
         <License>GPL-3.0</License>
         <PartOf>network.web.browser</PartOf>
@@ -20,53 +20,53 @@
         <PartOf>network.web.browser</PartOf>
         <Files>
             <Path fileType="executable">/usr/bin</Path>
-            <Path fileType="library">/usr/lib/python3.5/site-packages/uzbl-201100808-py3.5.egg-info/PKG-INFO</Path>
-            <Path fileType="library">/usr/lib/python3.5/site-packages/uzbl-201100808-py3.5.egg-info/SOURCES.txt</Path>
-            <Path fileType="library">/usr/lib/python3.5/site-packages/uzbl-201100808-py3.5.egg-info/dependency_links.txt</Path>
-            <Path fileType="library">/usr/lib/python3.5/site-packages/uzbl-201100808-py3.5.egg-info/entry_points.txt</Path>
-            <Path fileType="library">/usr/lib/python3.5/site-packages/uzbl-201100808-py3.5.egg-info/top_level.txt</Path>
-            <Path fileType="library">/usr/lib/python3.5/site-packages/uzbl/__init__.py</Path>
-            <Path fileType="library">/usr/lib/python3.5/site-packages/uzbl/__pycache__/__init__.cpython-35.pyc</Path>
-            <Path fileType="library">/usr/lib/python3.5/site-packages/uzbl/__pycache__/arguments.cpython-35.pyc</Path>
-            <Path fileType="library">/usr/lib/python3.5/site-packages/uzbl/__pycache__/core.cpython-35.pyc</Path>
-            <Path fileType="library">/usr/lib/python3.5/site-packages/uzbl/__pycache__/daemon.cpython-35.pyc</Path>
-            <Path fileType="library">/usr/lib/python3.5/site-packages/uzbl/__pycache__/event_manager.cpython-35.pyc</Path>
-            <Path fileType="library">/usr/lib/python3.5/site-packages/uzbl/__pycache__/ext.cpython-35.pyc</Path>
-            <Path fileType="library">/usr/lib/python3.5/site-packages/uzbl/__pycache__/net.cpython-35.pyc</Path>
-            <Path fileType="library">/usr/lib/python3.5/site-packages/uzbl/__pycache__/xdg.cpython-35.pyc</Path>
-            <Path fileType="library">/usr/lib/python3.5/site-packages/uzbl/arguments.py</Path>
-            <Path fileType="library">/usr/lib/python3.5/site-packages/uzbl/core.py</Path>
-            <Path fileType="library">/usr/lib/python3.5/site-packages/uzbl/daemon.py</Path>
-            <Path fileType="library">/usr/lib/python3.5/site-packages/uzbl/event_manager.py</Path>
-            <Path fileType="library">/usr/lib/python3.5/site-packages/uzbl/ext.py</Path>
-            <Path fileType="library">/usr/lib/python3.5/site-packages/uzbl/net.py</Path>
-            <Path fileType="library">/usr/lib/python3.5/site-packages/uzbl/plugins/__init__.py</Path>
-            <Path fileType="library">/usr/lib/python3.5/site-packages/uzbl/plugins/__pycache__/__init__.cpython-35.pyc</Path>
-            <Path fileType="library">/usr/lib/python3.5/site-packages/uzbl/plugins/__pycache__/bind.cpython-35.pyc</Path>
-            <Path fileType="library">/usr/lib/python3.5/site-packages/uzbl/plugins/__pycache__/cmd_expand.cpython-35.pyc</Path>
-            <Path fileType="library">/usr/lib/python3.5/site-packages/uzbl/plugins/__pycache__/completion.cpython-35.pyc</Path>
-            <Path fileType="library">/usr/lib/python3.5/site-packages/uzbl/plugins/__pycache__/config.cpython-35.pyc</Path>
-            <Path fileType="library">/usr/lib/python3.5/site-packages/uzbl/plugins/__pycache__/cookies.cpython-35.pyc</Path>
-            <Path fileType="library">/usr/lib/python3.5/site-packages/uzbl/plugins/__pycache__/downloads.cpython-35.pyc</Path>
-            <Path fileType="library">/usr/lib/python3.5/site-packages/uzbl/plugins/__pycache__/history.cpython-35.pyc</Path>
-            <Path fileType="library">/usr/lib/python3.5/site-packages/uzbl/plugins/__pycache__/keycmd.cpython-35.pyc</Path>
-            <Path fileType="library">/usr/lib/python3.5/site-packages/uzbl/plugins/__pycache__/mode.cpython-35.pyc</Path>
-            <Path fileType="library">/usr/lib/python3.5/site-packages/uzbl/plugins/__pycache__/on_event.cpython-35.pyc</Path>
-            <Path fileType="library">/usr/lib/python3.5/site-packages/uzbl/plugins/__pycache__/on_set.cpython-35.pyc</Path>
-            <Path fileType="library">/usr/lib/python3.5/site-packages/uzbl/plugins/__pycache__/progress_bar.cpython-35.pyc</Path>
-            <Path fileType="library">/usr/lib/python3.5/site-packages/uzbl/plugins/bind.py</Path>
-            <Path fileType="library">/usr/lib/python3.5/site-packages/uzbl/plugins/cmd_expand.py</Path>
-            <Path fileType="library">/usr/lib/python3.5/site-packages/uzbl/plugins/completion.py</Path>
-            <Path fileType="library">/usr/lib/python3.5/site-packages/uzbl/plugins/config.py</Path>
-            <Path fileType="library">/usr/lib/python3.5/site-packages/uzbl/plugins/cookies.py</Path>
-            <Path fileType="library">/usr/lib/python3.5/site-packages/uzbl/plugins/downloads.py</Path>
-            <Path fileType="library">/usr/lib/python3.5/site-packages/uzbl/plugins/history.py</Path>
-            <Path fileType="library">/usr/lib/python3.5/site-packages/uzbl/plugins/keycmd.py</Path>
-            <Path fileType="library">/usr/lib/python3.5/site-packages/uzbl/plugins/mode.py</Path>
-            <Path fileType="library">/usr/lib/python3.5/site-packages/uzbl/plugins/on_event.py</Path>
-            <Path fileType="library">/usr/lib/python3.5/site-packages/uzbl/plugins/on_set.py</Path>
-            <Path fileType="library">/usr/lib/python3.5/site-packages/uzbl/plugins/progress_bar.py</Path>
-            <Path fileType="library">/usr/lib/python3.5/site-packages/uzbl/xdg.py</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/uzbl-201100808-py3.6.egg-info/PKG-INFO</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/uzbl-201100808-py3.6.egg-info/SOURCES.txt</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/uzbl-201100808-py3.6.egg-info/dependency_links.txt</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/uzbl-201100808-py3.6.egg-info/entry_points.txt</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/uzbl-201100808-py3.6.egg-info/top_level.txt</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/uzbl/__init__.py</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/uzbl/__pycache__/__init__.cpython-36.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/uzbl/__pycache__/arguments.cpython-36.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/uzbl/__pycache__/core.cpython-36.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/uzbl/__pycache__/daemon.cpython-36.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/uzbl/__pycache__/event_manager.cpython-36.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/uzbl/__pycache__/ext.cpython-36.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/uzbl/__pycache__/net.cpython-36.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/uzbl/__pycache__/xdg.cpython-36.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/uzbl/arguments.py</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/uzbl/core.py</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/uzbl/daemon.py</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/uzbl/event_manager.py</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/uzbl/ext.py</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/uzbl/net.py</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/uzbl/plugins/__init__.py</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/uzbl/plugins/__pycache__/__init__.cpython-36.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/uzbl/plugins/__pycache__/bind.cpython-36.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/uzbl/plugins/__pycache__/cmd_expand.cpython-36.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/uzbl/plugins/__pycache__/completion.cpython-36.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/uzbl/plugins/__pycache__/config.cpython-36.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/uzbl/plugins/__pycache__/cookies.cpython-36.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/uzbl/plugins/__pycache__/downloads.cpython-36.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/uzbl/plugins/__pycache__/history.cpython-36.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/uzbl/plugins/__pycache__/keycmd.cpython-36.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/uzbl/plugins/__pycache__/mode.cpython-36.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/uzbl/plugins/__pycache__/on_event.cpython-36.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/uzbl/plugins/__pycache__/on_set.cpython-36.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/uzbl/plugins/__pycache__/progress_bar.cpython-36.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/uzbl/plugins/bind.py</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/uzbl/plugins/cmd_expand.py</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/uzbl/plugins/completion.py</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/uzbl/plugins/config.py</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/uzbl/plugins/cookies.py</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/uzbl/plugins/downloads.py</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/uzbl/plugins/history.py</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/uzbl/plugins/keycmd.py</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/uzbl/plugins/mode.py</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/uzbl/plugins/on_event.py</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/uzbl/plugins/on_set.py</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/uzbl/plugins/progress_bar.py</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/uzbl/xdg.py</Path>
             <Path fileType="data">/usr/share/appdata/uzbl.appdata.xml</Path>
             <Path fileType="data">/usr/share/applications/uzbl-core.desktop</Path>
             <Path fileType="data">/usr/share/applications/uzbl-tabbed.desktop</Path>
@@ -79,12 +79,12 @@
         </Files>
     </Package>
     <History>
-        <Update release="4">
-            <Date>2017-06-03</Date>
+        <Update release="5">
+            <Date>2018-01-31</Date>
             <Version>0.9.1</Version>
             <Comment>Packaging update</Comment>
-            <Name>Justin Zobel</Name>
-            <Email>justin@solus-project.com</Email>
+            <Name>Peter O&apos;Connor</Name>
+            <Email>peter@solus-project.com</Email>
         </Update>
     </History>
 </PISI>
